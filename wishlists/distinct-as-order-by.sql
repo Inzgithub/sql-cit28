@@ -1,0 +1,1 @@
+SELECT DISTINCT pcity AS "city", pstate AS "state" FROM people ORDER BY pstate DESC, pcity ASC;

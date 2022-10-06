@@ -1,0 +1,1 @@
+SELECT pfirstname AS "First Name", 'lives in' AS "Test Text", pcity AS "City", pfirstname || ' ' || plastname AS "Full Name" FROM people;
