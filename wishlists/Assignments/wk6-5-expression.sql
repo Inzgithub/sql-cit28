@@ -1,0 +1,1 @@
+SELECT lidesired AS "Desired", lipurchased as "Purchased", lidesired-lipurchased AS "Items Still Desired" FROM LISTitems

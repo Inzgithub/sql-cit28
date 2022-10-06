@@ -1,0 +1,1 @@
+SELECT pfirstname AS "First", plastname AS "Last", pfirstname || ' ' || plastname AS "Full Name" FROM people ORDER BY plastname ASC;
