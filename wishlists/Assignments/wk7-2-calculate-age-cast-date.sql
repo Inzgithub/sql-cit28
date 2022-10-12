@@ -1,0 +1,1 @@
+select pfirstname ||' ' || plastname || ' is ' || AGE(CAST('now' AS DATE) , CAST(pdob AS DATE)) || ' years old' FROM people ORDER BY pdob ASC;
