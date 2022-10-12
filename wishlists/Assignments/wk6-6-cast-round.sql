@@ -1,0 +1,1 @@
+SELECT lidesired AS "Desired", lipurchased as "Purchased", round(1-(CAST(lidesired - lipurchased AS NUMERIC)/lidesired),2) || '%' AS "Fulfillment" FROM listitems
