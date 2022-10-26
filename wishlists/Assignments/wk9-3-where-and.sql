@@ -1,0 +1,1 @@
+SELECT * FROM people WHERE ppoints>5000 AND pstate = 'NY'

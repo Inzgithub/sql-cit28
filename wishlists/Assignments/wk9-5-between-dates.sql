@@ -1,0 +1,2 @@
+-- SELECT pfirstname, plastname, pdob FROM people WHERE pdob BETWEEN '2001-01-01 01:01:01' AND '2006-12-31 23:59:59';
+SELECT pfirstname, plastname, pdob,pstate FROM people WHERE pstate = 'CA' AND pdob BETWEEN '2000-01-01 01:01:01' AND '2010-12-31 23:59:59';
