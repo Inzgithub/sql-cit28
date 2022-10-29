@@ -1,0 +1,1 @@
+SELECT pfirstname, plastname, pstate,pdob FROM people WHERE (pfirstname LIKE '%e%' OR plastname LIKE '%e%') and pstate = 'CA' AND pdob > '12-31-1999 23:59:59';
